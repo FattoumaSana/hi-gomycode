@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #006251;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+    margin: 0 10%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 10%;
+}
+
+section h2 {
+    border-bottom: 2px solid #006251;
+    padding-bottom: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px; /* Ajoute un espace au-dessus du footer */
+    width: 100%;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 10%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #006251;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: #333;
+}
+
+/* Styles pour les vidéos */
+#video {
+    text-align: center;
+    margin: 20px 10%;
+}
+
+#video video {
+    max-width: 100%;
+    height: auto;
+}
